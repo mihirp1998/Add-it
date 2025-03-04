@@ -31,7 +31,7 @@ pipe = FluxPipeline.from_pretrained(
 vae_scale_factor = pipe.vae_scale_factor
 in_channels = pipe.transformer.config.in_channels
 
-prompts = ["A horse standing in the garden.", "The horse is wearing a pink dress.", "The horse is wearing a crown.", "The knight is riding the horse."]
+prompts = ["A horse standing in the garden.", "The horse is wearing a pink dress."]
 initial_prompt = prompts[0]
 
 
@@ -52,9 +52,9 @@ init_image = pipe(
     latents=noise_init_packed
 ).images[0]
 
-os.makedirs("final", exist_ok=True)
+os.makedirs("results", exist_ok=True)
 
-init_image.save("final/generated_single_0.png")
+init_image.save("results/input.png")
 
 del pipe
 torch.cuda.empty_cache()
