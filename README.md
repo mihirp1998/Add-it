@@ -16,3 +16,10 @@ To edit run:
 ``python main.py``
 
 vary the gamma hyperparamter to vary the source importance, reducing the gamma gives more importance to the source image while increasing gives more importance to the target prompt.
+
+## Results:
+
+Input Image          |  Editted image - The horse is wearing a pink dress.
+:-------------------------:|:-------------------------:
+![](results/input.png)  |  ![](results/edit.png)
+
