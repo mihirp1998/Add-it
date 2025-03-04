@@ -1,5 +1,7 @@
 # Add-it
-Implementation of Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models
+Unoffical Implementation of Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models
+
+## Get started:
 
 ``pip install 'git+https://github.com/mihirp1998/diffusers_addit'``
 
