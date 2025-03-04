@@ -32,6 +32,7 @@ vae_scale_factor = pipe.vae_scale_factor
 in_channels = pipe.transformer.config.in_channels
 
 prompts = ["A horse standing in the garden.", "The horse is wearing a pink dress."]
+
 initial_prompt = prompts[0]
 
 
@@ -84,7 +85,8 @@ for i, new_prompt in enumerate(prompts[1:]):
     images = flux_out.images
     
     noise_init = target_noise
-    images[1].save(f"final/generated_edited_{i+1}.png")
+    images[1].save(f"results/generated_edited_{i+1}.png")
+    images[0].save(f"results/generated_edited_source_{i+1}.png")
     print(f"Generated image {i+1}")
     image_to_edit = images[1]
     previous_prompts.append(new_prompt)
