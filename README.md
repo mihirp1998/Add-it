@@ -1,7 +1,13 @@
 # Add-it
-Unoffical Implementation of Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models
+Unoffical Implementation of [Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models](https://arxiv.org/abs/2411.07232)
 
 ## Get started:
+
+To implement this in flux i had to edit the diffusers package - the custom diffusers package can be found [here] (https://github.com/mihirp1998/diffusers_addit)
+
+
+
+You can simply install the custom diffusers via this: 
 
 ``pip install 'git+https://github.com/mihirp1998/diffusers_addit'``
 
