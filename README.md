@@ -3,7 +3,7 @@ Unoffical Implementation of [Add-it: Training-Free Object Insertion in Images Wi
 
 ## Get started:
 
-To implement this in flux i had to edit the diffusers package - the custom diffusers package can be found [here] (https://github.com/mihirp1998/diffusers_addit)
+To implement this in flux i had to edit the diffusers package - the custom diffusers package can be found [here](https://github.com/mihirp1998/diffusers_addit)
 
 
 
