@@ -15,7 +15,7 @@ To edit run:
 
 ``python main.py``
 
-vary the gamma hyperparamter to vary the source importance, reducing the gamma gives more importance to the source image while increasing gives more importance to the target prompt.
+vary the gamma hyperparamter [here](https://github.com/mihirp1998/Add-it/blob/46e71ab01c4faf8db75274a46f8d8c9df53fce44/main.py#L20) to vary the source importance, reducing the gamma gives more importance to the source image while increasing gives more importance to the target prompt.
 
 ## Results:
 
