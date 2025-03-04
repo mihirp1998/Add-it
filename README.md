@@ -1,5 +1,5 @@
 # Add-it
-Unoffical Implementation of Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models
+Unoffical Implementation of [Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models](https://arxiv.org/abs/2411.07232)
 
 ## Get started:
 
